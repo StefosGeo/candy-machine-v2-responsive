@@ -178,6 +178,10 @@ const MintContainer = styled.div`
   flex: 1 1 auto;
   flex-wrap: wrap;
   gap: 20px;
+  //   padding: 0 15%;
+  max-width: 1400px;
+  min-width: 800px;
+  margin: auto;
 `;
 
 const DesContainer = styled.div`
@@ -489,16 +493,16 @@ const Home = (props: HomeProps) => {
                         <li><a href="http://localhost:3000/" target="_blank"
                                rel="noopener noreferrer">Menu 3</a></li>
                     </Menu> */}
-          <Wallet>
-            {wallet ? (
-              <WalletAmount>
-                {(balance || 0).toLocaleString()} SOL
-                <ConnectButton />
-              </WalletAmount>
-            ) : (
-              <ConnectButton>Connect Wallet</ConnectButton>
-            )}
-          </Wallet>
+          {/* <Wallet> */}
+          {wallet ? (
+            <WalletAmount>
+              {(balance || 0).toLocaleString()} SOL
+              <ConnectButton />
+            </WalletAmount>
+          ) : (
+            <ConnectButton>Connect Wallet</ConnectButton>
+          )}
+          {/* </Wallet> */}
         </WalletContainer>
         <ShimmerTitle>Pre-Sale IS LIVE !</ShimmerTitle>
         <br />

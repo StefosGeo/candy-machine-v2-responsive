@@ -500,13 +500,13 @@ const Home = (props: HomeProps) => {
             )}
           </Wallet>
         </WalletContainer>
-        <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
+        <ShimmerTitle>Pre-Sale IS LIVE !</ShimmerTitle>
         <br />
 
         <MintContainer>
           <DesContainer>
             <NFT elevation={3}>
-              <h2>My NFT</h2>
+              <h2>Mutant Zombies NFT</h2>
               <br />
               <div>
                 <Price

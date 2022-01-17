@@ -504,7 +504,7 @@ const Home = (props: HomeProps) => {
           )}
           {/* </Wallet> */}
         </WalletContainer>
-        <ShimmerTitle>Pre-Sale IS LIVE !</ShimmerTitle>
+        <ShimmerTitle>MINT IS LIVE !</ShimmerTitle>
         <br />
 
         <MintContainer>

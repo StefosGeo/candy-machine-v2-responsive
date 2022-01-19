@@ -536,14 +536,14 @@ const Home = (props: HomeProps) => {
                 /* <p>Total Minted : {100 - (itemsRemaining * 100 / itemsAvailable)}%</p>}*/
                 <h3>
                   {/* TOTAL MINTED : {itemsRedeemed} / {itemsAvailable} */}
-                  TOTAL MINTED : {itemsRedeemed} / 1767
+                  TOTAL MINTED : {itemsRedeemed} / 800
                 </h3>
               )}
               {wallet && isActive && (
                 <BorderLinearProgress
                   variant="determinate"
                   // value={100 - (itemsRemaining * 100) / itemsAvailable}
-                  value={100 - ((1767 - itemsRedeemed) * 100) / 1767}
+                  value={100 - ((800 - itemsRedeemed) * 100) / 800}
                 />
               )}
               <br />
